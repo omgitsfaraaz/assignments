@@ -1,0 +1,144 @@
+body{
+	letter-spacing: 0.03em;
+	font-family: 'Roboto',sans-serif;
+	line-height: 1.7em;
+	color: #161616;
+	}
+.firstquotes{
+	background: transparent;
+	height: 80vh;
+	padding-top:38vh;
+    }
+
+.moveup{
+	position: relative;
+	font-size: 2.6em;
+	font-weight: 700;
+	line-height: 1.7em;
+	animation: animatetop 3s;
+	width: 100%
+    }
+@keyframes animatetop{
+	from {top:-300px;opacity:0} to {top:0;opacity:1}
+   }
+
+.movedown{
+	position: relative;
+	letter-spacing: 0.04em;
+	font-size: 1.6em;
+	animation: animatebottom 3s;
+	line-height: 1.8em;
+	width: 100%
+	font-weight: 300;
+	
+  }
+@keyframes animatebottom{
+	from {bottom:-300px;opacity:0} to {bottom:0;opacity:1}
+
+  }
+
+
+
+.picture {
+	width: 100%;
+	animation: animatebottom 3s;
+	transition: .5s;
+	}
+@keyframes animatebottom{
+	from{bottom: -300px;opacity: 0} to {bottom: 0;opacity: 1}
+
+}
+
+.connections{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 1.58em;
+	line-height: 1.8em;
+	font-weight: 300;
+	padding-left: 1%;
+	letter-spacing: .04em;
+
+}
+.picture:hover
+{
+	transform: scale(.96);
+	opacity: .7;
+
+}
+.a{
+	font-size: 2.2em;
+	padding-top: 5%;
+	padding-left: 2%;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+
+}
+.b{
+	font-size: 1.5em;
+	font-weight: 300;
+	padding-left: 2%;
+	letter-spacing: .05em;
+}
+.c{
+	font-size: .98em;
+	color: #969696;
+	font-weight: 300;
+	padding-left: 2%;
+	letter-spacing: .05em;
+	font-style: italic;
+}
+
+
+.linking{
+	color:#2937f0;
+	font-weight: 500; 
+}
+.linking:hover{
+	color:#161616; 
+	border-bottom: 2px solid #161616;
+}
+.heading{
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.7em;
+
+}
+.detail{
+font-size: 1.58em;
+letter-spacing: 0.04em;
+font-weight: 300;
+line-height: 1.8em;
+
+}
+.oldman{
+	width: 100%;
+	position: relative;
+	animation: animatebottom 3s;
+}
+.img1{
+	width: 100%;
+	display: table;
+	padding-left: 1%;
+}
+.footer{
+	height: 30vh;
+	padding-top:11vh;
+}
+.x{
+	letter-spacing: .03em;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.7em;
+
+	
+}
+.y{
+	font-size: 1.8em;
+	color: #161616;
+	font-weight: 300;
+}
+.y:hover{
+	color:#161616; 
+	text-decoration:none;
+
+}
